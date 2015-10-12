@@ -8,7 +8,7 @@ Package.onUse(function (api) {
   api.versionsFrom("METEOR@1.0");
   api.use(['jquery', 'fourseven:scss'], 'client');
   
-  api.addFiles([
+  api.addAssets([
   // Bootstrap 3 font definitions
     'fonts/glyphicons-halflings-regular.eot',
     'fonts/glyphicons-halflings-regular.svg',
