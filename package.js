@@ -96,7 +96,7 @@ Package.onUse(function (api) {
     // Bootstrap 3 javascript definitions
     'client/bootstrap/javascripts/bootstrap.js'
 
-  ], ['client']);
+  ], ['client'], {isImport: true});
 
   api.addFiles([
     // Bottelio theme common imports
@@ -112,6 +112,6 @@ Package.onUse(function (api) {
 
     // Aggregate Styling
     'client/import.scss'
-  ], ['client']);
+  ], ['client'], {isImport: true});
 
 });
